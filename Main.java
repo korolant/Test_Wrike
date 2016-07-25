@@ -101,7 +101,7 @@ public class Main {
             return 0;
         int[] New_a = new int[a.length];
         New_a = a;
-        Arrays.sort(a);
+        Arrays.sort(New_a);
         int Summ = New_a[New_a.length - 1] + New_a[New_a.length - 2];
         New_a = null;
         return Summ;
